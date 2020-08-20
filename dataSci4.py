@@ -84,7 +84,7 @@ def sum_of_squares(v: Vector) -> float:
     """Returns v_1 * v_1 + ... + v_n * v_n""" 
     return dot(v, v)
 
-assert sum_of_swuares([1, 2, 3]) == 14     # 2 + 4 + 9
+assert sum_of_squares([1, 2, 3]) == 14     # 2 + 4 + 9
 
 
 # returns c for a^2 + b^2 = c^2
